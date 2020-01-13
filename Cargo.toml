@@ -14,6 +14,9 @@ categories = ["database"]
 travis-ci = { repository = "jgallagher/rusqlite" }
 appveyor = { repository = "jgallagher/rusqlite" }
 
+[workspace]
+members=["libsqlite3-sys"]
+
 [lib]
 name = "rusqlite"
 
